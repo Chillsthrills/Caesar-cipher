@@ -1,7 +1,15 @@
 import java.util.Scanner;
 public class SecretMessages {
+    private String text;
+    private int key;
 
     public SecretMessages(){
+
+    }
+
+    public SecretMessages(String text, int key){
+        this.text=text;
+        this.key=key;
 
     }
         public String encrypt(String message, int keyVal){
@@ -36,4 +44,19 @@ public class SecretMessages {
             return output;
         }
 
+        public String getText(){
+            return this.text;
+        }
+
+        public int getTKey(){
+            return this.key;
+        }
+
+        public void SetText(String text){
+            this.text=text;
+        }
+
+        public void SetKey(int key){
+            this.key=key;
+         }
 }
