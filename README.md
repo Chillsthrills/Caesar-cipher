@@ -19,7 +19,7 @@ Enter inverse value of key used during  encrypting
 To use this app, clone this repository and use an Integrated Development Environment to test out 
 the app. My recommendation is to use any of these specified in the following link: https://blog.idrsolutions.com/2015/03/the-top-11-free-ide-for-java-coding-development-programming/
 
-This application works with the following technologies: 
+This application works with the following technologies: Java
 
 ## Known Bugs
 This app has no known bugs. In case you notice any bugs with the application, reach out to the author @pwan.wa100@gmail.com
