@@ -5,9 +5,9 @@ public class App {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a message to encode or decode:");
         String message = scan.nextLine();
-        String output = "";
         System.out.println("Enter a secret key (-25 to 25):");
         int keyVal = Integer.parseInt(scan.nextLine());
-        char key = (char) keyVal;
+        SecretMessages secret = new SecretMessages();
+        secret.encrypt(message, keyVal);
     }
 }

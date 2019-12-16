@@ -12,7 +12,7 @@ public class SecretMessages {
         this.key=key;
 
     }
-        public String encrypt(String message, int keyVal){
+        public void encrypt(String message, int keyVal){
             char key = (char)keyVal;
             String output = "";
             for (int x = 0; x < message.length(); x++) {
@@ -41,14 +41,14 @@ public class SecretMessages {
             }
 
             System.out.println(output);
-            return output;
         }
+
 
         public String getText(){
             return this.text;
         }
 
-        public int getTKey(){
+        public int getKey(){
             return this.key;
         }
 
